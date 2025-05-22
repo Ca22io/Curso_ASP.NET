@@ -1,0 +1,31 @@
+c:\Curso_ASP.NET\Aula 1\bin\Debug\net8.0\appsettings.Development.json
+c:\Curso_ASP.NET\Aula 1\bin\Debug\net8.0\appsettings.json
+c:\Curso_ASP.NET\Aula 1\bin\Debug\net8.0\Aula 1.staticwebassets.runtime.json
+c:\Curso_ASP.NET\Aula 1\bin\Debug\net8.0\Aula 1.exe
+C:\Curso_ASP.NET\Aula 1\bin\Debug\net8.0\Aula 1.deps.json
+C:\Curso_ASP.NET\Aula 1\bin\Debug\net8.0\Aula 1.runtimeconfig.json
+c:\Curso_ASP.NET\Aula 1\bin\Debug\net8.0\Aula 1.dll
+c:\Curso_ASP.NET\Aula 1\bin\Debug\net8.0\Aula 1.pdb
+c:\Curso_ASP.NET\Aula 1\obj\Debug\net8.0\Aula 1.GeneratedMSBuildEditorConfig.editorconfig
+c:\Curso_ASP.NET\Aula 1\obj\Debug\net8.0\Aula 1.AssemblyInfoInputs.cache
+c:\Curso_ASP.NET\Aula 1\obj\Debug\net8.0\Aula 1.AssemblyInfo.cs
+c:\Curso_ASP.NET\Aula 1\obj\Debug\net8.0\Aula 1.csproj.CoreCompileInputs.cache
+c:\Curso_ASP.NET\Aula 1\obj\Debug\net8.0\Aula 1.MvcApplicationPartsAssemblyInfo.cache
+c:\Curso_ASP.NET\Aula 1\obj\Debug\net8.0\Aula 1.RazorAssemblyInfo.cache
+c:\Curso_ASP.NET\Aula 1\obj\Debug\net8.0\Aula 1.RazorAssemblyInfo.cs
+c:\Curso_ASP.NET\Aula 1\obj\Debug\net8.0\Aula 1.sourcelink.json
+c:\Curso_ASP.NET\Aula 1\obj\Debug\net8.0\staticwebassets.build.json
+c:\Curso_ASP.NET\Aula 1\obj\Debug\net8.0\staticwebassets.development.json
+c:\Curso_ASP.NET\Aula 1\obj\Debug\net8.0\staticwebassets\msbuild.Aula 1.Microsoft.AspNetCore.StaticWebAssets.props
+c:\Curso_ASP.NET\Aula 1\obj\Debug\net8.0\staticwebassets\msbuild.build.Aula 1.props
+c:\Curso_ASP.NET\Aula 1\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Aula 1.props
+c:\Curso_ASP.NET\Aula 1\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Aula 1.props
+c:\Curso_ASP.NET\Aula 1\obj\Debug\net8.0\staticwebassets.pack.json
+c:\Curso_ASP.NET\Aula 1\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+c:\Curso_ASP.NET\Aula 1\obj\Debug\net8.0\scopedcss\bundle\Aula 1.styles.css
+c:\Curso_ASP.NET\Aula 1\obj\Debug\net8.0\scopedcss\projectbundle\Aula 1.bundle.scp.css
+c:\Curso_ASP.NET\Aula 1\obj\Debug\net8.0\Aula 1.dll
+c:\Curso_ASP.NET\Aula 1\obj\Debug\net8.0\refint\Aula 1.dll
+c:\Curso_ASP.NET\Aula 1\obj\Debug\net8.0\Aula 1.pdb
+C:\Curso_ASP.NET\Aula 1\obj\Debug\net8.0\Aula 1.genruntimeconfig.cache
+C:\Curso_ASP.NET\Aula 1\obj\Debug\net8.0\ref\Aula 1.dll
