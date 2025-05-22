@@ -1,20 +1,12 @@
-using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using Aula_1.Models;
+using Microsoft.AspNetCore.Mvc.ApplicationModels;
 
 namespace Aula_1.Controllers;
 
 public class HomeController : Controller
 {
-    private readonly ILogger<HomeController> _logger;
-
-    public HomeController(ILogger<HomeController> logger)
+    public ViewResult Index(int? id)
     {
-        _logger = logger;
-    }
-
-    public IActionResult Index()
-    {
-        return View();
+        return View(id);
     }
 }

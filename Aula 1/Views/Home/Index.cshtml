@@ -1,8 +1,26 @@
-﻿@{
+﻿@model int?
+
+@{
     Layout = null;
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <title>página Index</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+    <h1>Bem-vindo ao ASP.NET Core Razor!</h1>
+    <p>página Index</p>
+    @if (Model.HasValue)
+    {
+        <p>O valor do modelo é: @Model.Value</p>
+    }
+    else
+    {
+        <p>O modelo não possui valor.</p>
+    }
+</body>
+</html>
