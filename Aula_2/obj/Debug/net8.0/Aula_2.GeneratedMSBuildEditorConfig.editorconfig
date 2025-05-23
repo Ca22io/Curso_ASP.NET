@@ -9,31 +9,39 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Aula_2
 build_property.RootNamespace = Aula_2
-build_property.ProjectDir = C:\Curso_ASP.NET\Aula_2\
+build_property.ProjectDir = c:\Curso_ASP.NET\Aula_2\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Curso_ASP.NET\Aula_2
+build_property.MSBuildProjectDirectory = c:\Curso_ASP.NET\Aula_2
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Curso_ASP.NET/Aula_2/Views/Home/Index.cshtml]
+[c:/Curso_ASP.NET/Aula_2/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Curso_ASP.NET/Aula_2/Views/Home/Responder.cshtml]
+[c:/Curso_ASP.NET/Aula_2/Views/Home/Obrigado.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxPYnJpZ2Fkby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Curso_ASP.NET/Aula_2/Views/Home/Responder.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZXNwb25kZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Curso_ASP.NET/Aula_2/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Curso_ASP.NET/Aula_2/Views/Home/Resultado.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZXN1bHRhZG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Curso_ASP.NET/Aula_2/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Curso_ASP.NET/Aula_2/Views/_ViewImports.cshtml]
+[c:/Curso_ASP.NET/Aula_2/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Curso_ASP.NET/Aula_2/Views/_ViewStart.cshtml]
+[c:/Curso_ASP.NET/Aula_2/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

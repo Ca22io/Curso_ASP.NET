@@ -1,4 +1,3 @@
-using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Aula_2.Models;
 
@@ -18,15 +17,24 @@ public class HomeController : Controller
     }
 
     [HttpPost]
-    public IActionResult Responder(Resposta form)
+    public IActionResult Responder(Resposta reposta)
     {
-        var respostas = TempData["Respostas"] as List<Resposta>;
-        respostas.Add(form);
-        TempData["Respostas"] = respostas;
-
-        return RedirectToAction("Index");
+        if (ModelState.IsValid)
+        {
+            Repositorio.AdicionarResposta(reposta);
+            return View("Obrigado");
+        }
+        else
+        {
+            return View(reposta);
+        }
+        
+        
     }
 
-    
-
+    [HttpGet]
+    public IActionResult Resultado()
+    {
+        return View(Repositorio.Respostas);
+    }
 }
