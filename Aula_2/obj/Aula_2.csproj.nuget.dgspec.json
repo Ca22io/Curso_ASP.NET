@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Curso_ASP.NET\\Aula_2\\Aula_2.csproj": {}
+    "C:\\Curso_ASP.NET\\Aula_2\\Aula_2.csproj": {}
   },
   "projects": {
-    "c:\\Curso_ASP.NET\\Aula_2\\Aula_2.csproj": {
+    "C:\\Curso_ASP.NET\\Aula_2\\Aula_2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Curso_ASP.NET\\Aula_2\\Aula_2.csproj",
+        "projectUniqueName": "C:\\Curso_ASP.NET\\Aula_2\\Aula_2.csproj",
         "projectName": "Aula_2",
-        "projectPath": "c:\\Curso_ASP.NET\\Aula_2\\Aula_2.csproj",
+        "projectPath": "C:\\Curso_ASP.NET\\Aula_2\\Aula_2.csproj",
         "packagesPath": "C:\\Users\\ca22i\\.nuget\\packages\\",
-        "outputPath": "c:\\Curso_ASP.NET\\Aula_2\\obj\\",
+        "outputPath": "C:\\Curso_ASP.NET\\Aula_2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ca22i\\AppData\\Roaming\\NuGet\\NuGet.Config"
