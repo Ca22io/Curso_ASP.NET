@@ -1,8 +1,11 @@
+@model Aula_3.Models.Usuario
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="utf-8" />
-<title>Cadastro de Usuários</title>
+    <title>Cadastro de Usuários</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css" />
 </head>
@@ -10,17 +13,18 @@
     <div class="container mt-5">
         <h1 class="text-primary">Bem-vindo à Cadastro de Usuários</h1>
         <hr>
-        <form action="">
+        <form method="post" class="w-25">
             <div class="mb-3">
-                <label for="txtnome" class="form-label">Nome</label>
-                <input type="text" class="form-control" id="txtnome" name="Nome" required>
+                <label asp-for="Nome">Nome</label>
+                <input asp-for="Nome" class="form-control">
             </div>
             <div class="mb-3">
-                <label for="txtemail" class="form-label">Email</label>
-                <input type="email" class="form-control" id="txtemail" name="Email" required>
+                <label asp-for="Email">Email</label>
+                <input asp-for="Email"class="form-control">
             </div>
             
             <div class="mt-3">
+                <a href="/Home/Usuarios" class="btn btn-light">Cancelar</a>
                 <button type="submit" class="btn btn-primary">Salvar</button>
             </div>
         </form>
