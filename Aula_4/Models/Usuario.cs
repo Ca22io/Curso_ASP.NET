@@ -15,23 +15,20 @@ namespace Aula_4.Models
                 return listagem.AsQueryable();
             }
         }
-        
-        public static void Adicionar(Usuario usuario)
+
+        public static void Salvar(Usuario usuario)
         {
-            if (usuario != null)
-            {
-                usuario.Id = listagem.Count + 1; // Simples incremento para ID
-                listagem.Add(usuario);
-            }
-        }
-        
-        public static void Alterar(Usuario usuario)
-        {
-            var existingUsuario = listagem.FirstOrDefault(u => u.Id == usuario.Id);
+            var existingUsuario = Usuario.listagem.Find(u => u.Id == usuario.Id);
             if (existingUsuario != null)
             {
                 existingUsuario.Nome = usuario.Nome;
                 existingUsuario.Email = usuario.Email;
+            }
+            else
+            {
+                int maiorId = listagem.Max(u => u.Id);
+                usuario.Id = maiorId + 1; // Atribui um novo ID se não encontrado
+                Usuario.listagem.Add(usuario);
             }
         }
 

@@ -23,7 +23,7 @@ namespace Aula_4.Controllers
             // Adicione lógica para processar o cadastro, por exemplo:
             if (ModelState.IsValid)
             { 
-                Usuario.Adicionar(usuario);
+                Usuario.Salvar(usuario);
                 return RedirectToAction("Usuarios");
             }
 
@@ -70,7 +70,7 @@ namespace Aula_4.Controllers
             // Verifica se o modelo é válido
             if (ModelState.IsValid)
             {
-                Usuario.Alterar(usuario);
+                Usuario.Salvar(usuario);
                 return RedirectToAction("Usuarios");
             }
 
