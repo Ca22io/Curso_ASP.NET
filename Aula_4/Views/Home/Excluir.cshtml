@@ -1,3 +1,5 @@
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -8,10 +10,11 @@
 </head>
 <body>
     <div class="container mt-5">
-        <h1 class="text-primary">Realmente deseja excluir o Usuário </i></h1>
+        <h1 class="text-primary">Exclusão de usuário </i></h1>
         <hr>
+        <p>Realmente deseja excluir o usuário @Model.Nome ?</p>
         <a asp-action="Usuarios" class="btn btn-secondary">Cancelar</a>
-        <a asp-acition="Excluir" class="btn btn-danger">Excluir</a>
+        <a asp-action="ExcluirConfirmado" asp-route-itemid="@Model.Id" class="btn btn-danger">Excluir</a>
     </div>
 </body>
 </html>

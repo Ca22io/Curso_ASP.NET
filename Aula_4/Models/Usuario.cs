@@ -24,16 +24,27 @@ namespace Aula_4.Models
                 listagem.Add(usuario);
             }
         }
+        
+        public static void Alterar(Usuario usuario)
+        {
+            var existingUsuario = listagem.FirstOrDefault(u => u.Id == usuario.Id);
+            if (existingUsuario != null)
+            {
+                existingUsuario.Nome = usuario.Nome;
+                existingUsuario.Email = usuario.Email;
+            }
+        }
 
         public static void Excluir(int id)
         {
             var usuario = listagem.FirstOrDefault(u => u.Id == id);
-            
+
             if (usuario != null)
             {
                 listagem.Remove(usuario);
             }
         }
+
 
         static Usuario()
         {

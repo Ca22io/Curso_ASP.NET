@@ -31,18 +31,51 @@ namespace Aula_4.Controllers
         }
 
 
-        [HttpGet]
-        public IActionResult Excluir()
+        public IActionResult Excluir(int itemId)
         {
-            
-            return View();
+            // Verifica se o item existe
+            var usuario = Usuario.Listagem.First(u => u.Id == itemId);
+            if (usuario == null)
+            {
+                return NotFound();
+            }
+
+            // Passa o usuário para a view de exclusão
+            return View(usuario);
         }
 
-        [HttpGet]
-        public IActionResult Excluir(int id)
+
+        public IActionResult ExcluirConfirmado(int itemId)
         {
-            Usuario.Excluir(id);
+            Usuario.Excluir(itemId);
             return RedirectToAction("Usuarios");
+        }
+
+        public IActionResult Alterar(int itemId)
+        {
+            // Verifica se o item existe
+            var usuario = Usuario.Listagem.First(u => u.Id == itemId);
+            if (usuario == null)
+            {
+                return NotFound();
+            }
+
+            // Passa o usuário para a view de edição
+            return View(usuario);
+        }
+
+        [HttpPost]
+        public IActionResult Alterar(Usuario usuario)
+        {
+            // Verifica se o modelo é válido
+            if (ModelState.IsValid)
+            {
+                Usuario.Alterar(usuario);
+                return RedirectToAction("Usuarios");
+            }
+
+            // Se o modelo não for válido, retorna à view de edição
+            return View(usuario);
         }
 
 
