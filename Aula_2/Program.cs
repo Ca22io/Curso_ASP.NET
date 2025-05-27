@@ -30,3 +30,5 @@ app.MapControllerRoute(
 
 // Inicia o aplicativo e começa a escutar requisições HTTP
 app.Run();
+
+// Fim do código
