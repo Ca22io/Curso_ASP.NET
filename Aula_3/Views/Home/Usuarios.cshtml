@@ -29,7 +29,8 @@
                         <td>@u.Nome</td>
                         <td>@u.Email</td>
                         <td>
-                            <a asp-action="Cadastrar" asp-route-itemid="@u.Id" class="btn btn-sm btn-secondary">Alterar</a>
+                            <a asp-action="Cadastrar" asp-route-id="@u.IdUsuario" class="btn btn-sm btn-secondary">Alterar</a>
+                            <a asp-action="Excluir" asp-route-id="@u.IdUsuario" class="btn btn-sm btn-danger">Excluir</a>
                         </td>
                     </tr>
                 }
