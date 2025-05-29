@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "c:\\C#\\Aula_3\\Aula_3.csproj": {}
+    "c:\\Curso_ASP.NET\\Aula_3\\Aula_3.csproj": {}
   },
   "projects": {
-    "c:\\C#\\Aula_3\\Aula_3.csproj": {
+    "c:\\Curso_ASP.NET\\Aula_3\\Aula_3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\C#\\Aula_3\\Aula_3.csproj",
+        "projectUniqueName": "c:\\Curso_ASP.NET\\Aula_3\\Aula_3.csproj",
         "projectName": "Aula_3",
-        "projectPath": "c:\\C#\\Aula_3\\Aula_3.csproj",
-        "packagesPath": "C:\\Users\\casas\\.nuget\\packages\\",
-        "outputPath": "c:\\C#\\Aula_3\\obj\\",
+        "projectPath": "c:\\Curso_ASP.NET\\Aula_3\\Aula_3.csproj",
+        "packagesPath": "C:\\Users\\ca22i\\.nuget\\packages\\",
+        "outputPath": "c:\\Curso_ASP.NET\\Aula_3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\casas\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ca22i\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -32,11 +32,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -67,7 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

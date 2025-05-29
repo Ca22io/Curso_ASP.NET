@@ -52,7 +52,7 @@ namespace Aula_3.Controllers
         [HttpPost]
         public IActionResult Excluir(Usuario usuario)
         {
-            Usuario.Excluir(usuario.IdUsuario);
+            TempData["Excluiu"] = Usuario.Excluir(usuario.IdUsuario);
             return RedirectToAction("Usuarios");
         }
 
