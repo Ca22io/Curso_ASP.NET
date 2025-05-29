@@ -7,6 +7,7 @@ namespace Aula_3.Controllers
     {
         public IActionResult Index()
         {
+            ViewBag.QtdUsuarios = Usuario.Listagem.Count();
             return View();
         }
 

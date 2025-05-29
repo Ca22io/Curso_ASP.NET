@@ -1,16 +1,8 @@
-@model Aula_3.Models.Usuario
-@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model Usuario
+@{
+    ViewBag.Subtitulo = "Cadastro";
+}
 
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="utf-8" />
-    <title>Cadastro de Usuários</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css" />
-</head>
-<body>
-    <div class="container mt-5">
         <h1 class="text-primary">Bem-vindo à Cadastro de Usuários</h1>
         <hr>
         <form method="post" class="w-25">
@@ -29,6 +21,3 @@
                 <button type="submit" class="btn btn-primary">Salvar</button>
             </div>
         </form>
-    </div>
-</body>
-</html>

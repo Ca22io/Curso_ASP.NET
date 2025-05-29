@@ -1,16 +1,8 @@
-@model IQueryable<Aula_3.Models.Usuario>
-@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model IQueryable<Usuario>
+@{
+    ViewBag.Subtitulo = "Listagem";
+}
 
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="utf-8" />
-    <title>Usuários</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css" />
-</head>
-<body>
-    <div class="container mt-5">
         <h1 class="text-primary">Usuários</h1>
         <hr>
         <a href="/Home/Cadastrar" class="btn btn-primary">Novo Usuário</a>
@@ -36,6 +28,3 @@
                 }
             </tbody>
         </table>
-    </div>
-</body>
-</html>
