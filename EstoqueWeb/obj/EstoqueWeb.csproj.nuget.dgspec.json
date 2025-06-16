@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\C#\\EstoqueWeb\\EstoqueWeb.csproj": {}
+    "C:\\C#\\EstoqueWeb\\EstoqueWeb.csproj": {}
   },
   "projects": {
-    "c:\\C#\\EstoqueWeb\\EstoqueWeb.csproj": {
+    "C:\\C#\\EstoqueWeb\\EstoqueWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\C#\\EstoqueWeb\\EstoqueWeb.csproj",
+        "projectUniqueName": "C:\\C#\\EstoqueWeb\\EstoqueWeb.csproj",
         "projectName": "EstoqueWeb",
-        "projectPath": "c:\\C#\\EstoqueWeb\\EstoqueWeb.csproj",
+        "projectPath": "C:\\C#\\EstoqueWeb\\EstoqueWeb.csproj",
         "packagesPath": "C:\\Users\\casas\\.nuget\\packages\\",
-        "outputPath": "c:\\C#\\EstoqueWeb\\obj\\",
+        "outputPath": "C:\\C#\\EstoqueWeb\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\casas\\AppData\\Roaming\\NuGet\\NuGet.Config"

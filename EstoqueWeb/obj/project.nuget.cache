@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DE9LS/rSXgpk7yBQtG+pHLqbU/j8pKYZEO8JIsJcn/DrF2+1fYuUc1m6i5UxfhWQ8z9IeKN4OwvfKzSdJAwCxw==",
+  "dgSpecHash": "R1GeT76xVGAwFrsoSCpQRlNoKjtF3k2bqVSu945p5Rl/27kmPDD+Y67YuJ5Tg1ajLR3Smh/LOjxBYtyFJoRMAA==",
   "success": true,
-  "projectFilePath": "c:\\C#\\EstoqueWeb\\EstoqueWeb.csproj",
+  "projectFilePath": "C:\\C#\\EstoqueWeb\\EstoqueWeb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\casas\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\casas\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\6.0.0\\microsoft.aspnetcore.mvc.razor.extensions.6.0.0.nupkg.sha512",
