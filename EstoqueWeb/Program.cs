@@ -1,8 +1,12 @@
-using Microsoft.AspNetCore.Builder;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
+
+var Configuration = builder.Configuration;
+
+builder.Services.AddDbContext<EstoqueWeb.Models.EstoqueWebContext>( options => options.UseSqlite(Configuration.GetConnectionString("EstoqueWebContext")));
 
 var app = builder.Build();
 
