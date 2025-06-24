@@ -8,6 +8,6 @@ namespace EstoqueWeb.Models
         public int IdCategoria { get; set; }
 
         [Required, MaxLength(128)]
-        public required string Nome { get; set; }
+        public string Nome { get; set; }
     }
 }
