@@ -13,11 +13,11 @@
 <h1 class="text-primary">@ViewBag.Subtitulo</h1>
 <hr />
 
-<form asp-action="Cadastrar">
-    <input type="hidden" name="id" value="@Model.IdCategoria"/>
-    <div class="form-group row">
+<form asp-action="Cadastrar" class="row">
+    <input type="hidden" asp-for="@Model.IdCategoria"/>
+    <div class="form-group col-sm-8 col-lg-4">
         <label asp-for="@Model.Nome">Nome:</label>
-        <input asp-for="@Model.Nome" class="form-control col-sm-8 col-lg-4" autofocus/>
+        <input asp-for="@Model.Nome" class="form-control" autofocus/>
         <span asp-validation-for="@Model.Nome" class="text-danger"></span>
     </div>
     <div class="mt-3">

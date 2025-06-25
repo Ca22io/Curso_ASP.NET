@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HKe8pWgF5a9jJtOIKlM2iK/Ps/olGfgpxHw9KOpff4Q=",
+  "Hash": "FTB357gHT5ICsDMvWZzae7xeyxMaL8i85/D/+VcBe7I=",
   "Source": "EstoqueWeb",
   "BasePath": "_content/EstoqueWeb",
   "Mode": "Default",
@@ -16,6 +16,25 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "c:\\Curso_ASP.NET\\EstoqueWeb\\wwwroot\\css\\estilos.css",
+      "SourceId": "EstoqueWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Curso_ASP.NET\\EstoqueWeb\\wwwroot\\",
+      "BasePath": "_content/EstoqueWeb",
+      "RelativePath": "css/estilos.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\estilos.css"
+    },
     {
       "Identity": "c:\\Curso_ASP.NET\\EstoqueWeb\\wwwroot\\lib\\bootstrap5\\dist\\css\\bootstrap-grid.css",
       "SourceId": "EstoqueWeb",

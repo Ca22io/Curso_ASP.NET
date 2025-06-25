@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Curso_ASP.NET\\EstoqueWeb\\EstoqueWeb.csproj": {}
+    "c:\\Curso_ASP.NET\\EstoqueWeb\\EstoqueWeb.csproj": {}
   },
   "projects": {
-    "C:\\Curso_ASP.NET\\EstoqueWeb\\EstoqueWeb.csproj": {
+    "c:\\Curso_ASP.NET\\EstoqueWeb\\EstoqueWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Curso_ASP.NET\\EstoqueWeb\\EstoqueWeb.csproj",
+        "projectUniqueName": "c:\\Curso_ASP.NET\\EstoqueWeb\\EstoqueWeb.csproj",
         "projectName": "EstoqueWeb",
-        "projectPath": "C:\\Curso_ASP.NET\\EstoqueWeb\\EstoqueWeb.csproj",
+        "projectPath": "c:\\Curso_ASP.NET\\EstoqueWeb\\EstoqueWeb.csproj",
         "packagesPath": "C:\\Users\\ca22i\\.nuget\\packages\\",
-        "outputPath": "C:\\Curso_ASP.NET\\EstoqueWeb\\obj\\",
+        "outputPath": "c:\\Curso_ASP.NET\\EstoqueWeb\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ca22i\\AppData\\Roaming\\NuGet\\NuGet.Config"

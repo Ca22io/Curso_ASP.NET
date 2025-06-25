@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "c:\\Curso_ASP.NET\\EstoqueWeb\\wwwroot\\css\\estilos.css",
+      "PackagePath": "staticwebassets\\css\\estilos.css"
+    },
+    {
       "Id": "c:\\Curso_ASP.NET\\EstoqueWeb\\wwwroot\\lib\\bootstrap5\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap5"
     },
