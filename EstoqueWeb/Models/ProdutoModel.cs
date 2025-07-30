@@ -15,9 +15,9 @@ namespace EstoqueWeb.Models
 
         public int Estoque { get; set; }
 
-        [ForeignKey("Categoria")]
         public int IdCategoria { get; set; }
 
-        public CategoriaModel? Categoria { get; set; }
+        [ForeignKey("IdCategoria")]
+        public CategoriaModel Categoria { get; set; }
     }
 }

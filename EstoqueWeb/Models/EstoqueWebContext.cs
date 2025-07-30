@@ -8,6 +8,8 @@ namespace EstoqueWeb.Models
 
         public DbSet<ProdutoModel> Produtos { get; set; }
 
+        public DbSet<ClienteModel> Clientes { get; set; }
+
         public EstoqueWebContext(DbContextOptions<EstoqueWebContext> options) : base(options)
         {
         }
