@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ca22i\\OneDrive\\Documentos\\Curso ASP.NET\\EstoqueWeb\\EstoqueWeb.csproj": {}
+    "C:\\C#\\EstoqueWeb\\EstoqueWeb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ca22i\\OneDrive\\Documentos\\Curso ASP.NET\\EstoqueWeb\\EstoqueWeb.csproj": {
+    "C:\\C#\\EstoqueWeb\\EstoqueWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ca22i\\OneDrive\\Documentos\\Curso ASP.NET\\EstoqueWeb\\EstoqueWeb.csproj",
+        "projectUniqueName": "C:\\C#\\EstoqueWeb\\EstoqueWeb.csproj",
         "projectName": "EstoqueWeb",
-        "projectPath": "C:\\Users\\ca22i\\OneDrive\\Documentos\\Curso ASP.NET\\EstoqueWeb\\EstoqueWeb.csproj",
-        "packagesPath": "C:\\Users\\ca22i\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ca22i\\OneDrive\\Documentos\\Curso ASP.NET\\EstoqueWeb\\obj\\",
+        "projectPath": "C:\\C#\\EstoqueWeb\\EstoqueWeb.csproj",
+        "packagesPath": "C:\\Users\\casas\\.nuget\\packages\\",
+        "outputPath": "C:\\C#\\EstoqueWeb\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ca22i\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\casas\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -89,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.412/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

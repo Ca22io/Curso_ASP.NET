@@ -1,6 +1,6 @@
 using Newtonsoft.Json;
 
-namespace EstoqueWeb.Models
+namespace App.Models
 {
     public enum TipoMensagem
     {
@@ -8,7 +8,7 @@ namespace EstoqueWeb.Models
         Erro
     }
 
-    public class MensagemModel
+    public class MensagemViewModel
     {
         public TipoMensagem Tipo { get; set; }
         public string Texto { get; set; }
